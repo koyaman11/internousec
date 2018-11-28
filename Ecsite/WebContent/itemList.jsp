@@ -31,9 +31,12 @@ margin:0 auto;
 }
 
 #top{
-width:780px;
-margin:30px auto;
-border:1px solid #333;
+width: 780px;
+    font-weight: 800;
+    font-size: 20px;
+    margin: 30px auto;
+    border: 3px solid;
+    border-radius: 10px;
 }
 
 #header{

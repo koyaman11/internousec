@@ -15,51 +15,60 @@
 <style type="text/css">
 
 body{
-margin:0;
-padding:0;
-line-height:1.6;
-letter-spacing:1px;
-font-family:Verdana,Helvetica,sans-serif;
-font-size:12px;
-color:#333;
-backgrount:#fff;
+	margin:0;
+	padding:0;
+	line-height:1.6;
+	letter-spacing:1px;
+	font-family:Verdana,Helvetica,sans-serif;
+	font-size:12px;
+	color:#333;
+	backgrount:#fff;
 }
 
 table{
-text-align:center;
-margin:0 auto;
+	text-align:center;
+	margin:0 auto;
 }
 
 #top{
-width:780px;
-margin:30px auto;
-border:1px solid #333;
+	width: 780px;
+    font-weight: 800;
+    font-size: 20px;
+    margin: 30px auto;
+    border: 3px solid;
+    border-radius: 10px;
 }
 
 #header{
-width:100%;
-height:80px;
-background-color:black;
+	width:100%;
+	height:80px;
+	background-color:black;
 }
 
 #main{
-width:100%;
-height:500px;
-text-align:center;
+	width:100%;
+	height:500px;
+	text-align:center;
 }
 
 #footer{
-width:100%;
-height:80px;
-background-color:black;
-clear:both;
+	width:100%;
+	height:80px;
+	background-color:black;
+	clear:both;
 }
 
 #text-center{
-displey:inline-block;
-text-align:center;
+	displey:inline-block;
+	text-align:center;
 }
-
+.syoukyo_btn{
+	width: 70px;
+    background-color: black;
+    border-radius: 10px;
+    color: white;
+    border: 2px solid white;
+}
 </style>
 </head>
 <body>
@@ -93,12 +102,11 @@ text-align:center;
 </s:iterator>
 </table>
 <s:form action="UserListDeleteConfirmAction">
-  <s:submit value="消去"/>
+  <s:submit value="消去" class="syoukyo_btn"/>
   </s:form>
   </div>
   <div id="text-right">
   <p>管理者画面に戻る場合は<a href='<s:url action="AdminAction"/>'>こちら</a>
-
   </div>
 </div>
 </div>
